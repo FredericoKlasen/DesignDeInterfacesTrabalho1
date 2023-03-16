@@ -14,22 +14,22 @@ body{
     background-color:  rgb(158, 50, 50);
     border: none;
     color: white;
-    padding: 0.5vw 2vw;
+    padding: 1vw 4vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.2vw;
+    font-size: 2.4vw;
   }
 
 div {
-    width: 25vw;
-    height: 20vw;
+    width: 50vw;
+    height: 40vw;
     text-align: center;
     border: 1vw solid rgb(158, 50, 50);
-    padding: 2vw;
-    margin: 2vw;
+    padding: 4vw;
+    margin: 4vw;
     background-color: black;
-    font-size: 1.2vw;
+    font-size: 2.4vw;
   }
   h1 {text-shadow: 2px 2px 5px rgb(158, 50, 50);color: grey}
 
