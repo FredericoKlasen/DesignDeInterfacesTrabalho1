@@ -1,0 +1,187 @@
+@import 'reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Playfair+Display:ital@1&display=swap');
+
+
+.cabecalho {
+    background-color: black;
+    justify-content: center;
+    padding: 1vw;
+    display: flex;
+    flex-flow: row nowrap;
+	gap: 5vw;
+	font-size: 10vw;
+	color: white;
+	font-family: playfair display;
+	
+	
+}
+
+.logo {
+	width: 12vw;
+	height: 10vw;
+	align-self: start;
+
+}
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	gap: 10vw;
+	font-size: 2vw;
+	color: rgb(30, 30, 93);
+	font-family: playfair display;
+}
+nav li{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+nav a{
+	text-decoration: none;
+}
+.img-menu {
+	
+	width: 2vw;
+	height: 2vw;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: column;
+	justify-content: column;
+	column-gap: 5vw;
+}
+
+figure {
+	display: flex;
+	font-family: playfair display;
+	color: rgb(30, 30, 93);
+	align-items: column;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	text-align: center;
+	justify-content: column;
+	gap: 5vw;
+	margin: 2vw;
+	padding: 2vw;
+
+	
+
+}
+
+.jogos{
+	width: 8vw;
+	height: auto;
+}
+
+.rodape {
+    background-color: black;
+    justify-content: center;
+    padding: 1vw;
+    display: flex;
+    flex-flow: row wrap;
+	gap: 8vw;
+	font-size: 8vw;
+	color: white;
+	font-family: playfair display;
+	align-items: column;
+	
+	
+}
+
+.img-rodape {
+	width: 5vw;
+	height: auto;
+}
+
+.main-contato{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 2vw;
+	color: rgb(30, 30, 93);
+	font-family: playfair display;
+	align-items: column;
+	gap: 5vw;
+	justify-content: column;
+}
+
+legend {
+	display: flex;
+	font-size: 2vw;
+	color: rgb(30, 30, 93);
+	font-family: playfair display;
+	align-items: column;
+	gap: 5vw;
+}
+
+label {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 2vw;
+	color: rgb(30, 30, 93);
+	font-family: playfair display;
+	align-items: column;
+	gap: 5vw;
+
+}
+input {
+	display: flex;
+	font-size: 2vw;
+	align-items: column;
+	gap: 5vw;
+}
+
+.msg {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 2vw;
+	align-items: column;
+	gap: 5vw;
+
+}
+
+
+
+p {
+	font-family: lato;
+	font-size: 2vw;
+	color: rgb(30, 30, 93);
+}
+
+.banner {
+	align-self: column;
+	width: auto;
+	height: 37vw;
+}
+.container-home {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: column;
+	justify-content: column;
+	column-gap: 5vw;
+}
+
+.comentarios {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: column;
+	justify-content: column;
+	column-gap: 5vw;
+	font-family: lato;
+	font-size: 3vw;
+	color: rgb(30, 30, 93);
+
+}
