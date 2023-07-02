@@ -1,0 +1,124 @@
+/* Reset CSS */
+@import 'reset.css';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Playfair+Display:ital@1&display=swap');
+
+/* Cores */
+:root {
+  --cor-primaria: #343a40;
+  --cor-secundaria: #f8f9fa;
+  --cor-destaque: #007bff;
+  --cor-laranja-escuro: #e68a00;
+  --cor-laranja-claro: #ffa500;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(to bottom, var(--cor-laranja-escuro), var(--cor-laranja-claro));
+}
+
+.navbar {
+  background-color: #87ceeb;
+  color: #555;
+}
+
+.navbar-brand {
+  color: #555;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #555;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+/* Produtos */
+#produtos {
+  padding: 50px 0;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  width: 30vw;
+  height: auto;
+}
+
+/* Modais */
+.modal-title {
+  color: var(--cor-primaria);
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+/* Plataformas */
+#carousel {
+  background-color: var(--cor-secundaria);
+  padding: 50px 0;
+}
+
+
+
+/* Tabela */
+#tabela {
+  padding: 50px 0;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: var(--cor-secundaria);
+}
+
+
+
+/* Rodapé */
+footer {
+  background: linear-gradient(to bottom, var(--cor-laranja-claro), var(--cor-laranja-escuro));
+  color: var(--cor-secundaria);
+  padding: 20px 0;
+}
+
+/* Responsivo */
+@media (max-width: 767px) {
+  .navbar-expand-lg .navbar-collapse {
+    background-color: var(--cor-primaria);
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--cor-secundaria);
+  }
+}
