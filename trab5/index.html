@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Campeonato Regional</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Campeonato Regional</h1>
+    </header>
+   <div class="content">
+    <div class="step" id="step1">
+        <h2>JOGO 1</h2>
+         <div class="team-info">
+            <label for="team1Name">Time 1 Nome:</label>
+            <input type="text" id="team1Name" placeholder="Nome do Time">
+            <label for="team1Color">Cor:</label>
+            <select id="team1Color">
+                <option value="red">Vermelho</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="black">Preto</option>
+            </select>
+            <label for="team1Goals">Saldo de Gols:</label>
+            <input type="number" id="team1Goals" placeholder="Saldo de Gols">
+        </div>
+        <div class="team-info">
+            <label for="team1Name">Time 2 Nome:</label>
+            <input type="text" id="team1Name" placeholder="Nome do Time">
+            <label for="team1Color">Cor:</label>
+            <select id="team1Color">
+                <option value="red">Vermelho</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="black">Preto</option>
+            </select>
+            <label for="team1Goals">Saldo de Gols:</label>
+            <input type="number" id="team1Goals" placeholder="Saldo de Gols">
+        </div>
+        <button id="nextStep1">Próxima Etapa</button>
+    </div>
+    <div class="step" id="step2">
+        <h2>JOGO 2</h2>
+        <div class="team-info">
+            <label for="team1Name">Time 3 Nome:</label>
+            <input type="text" id="team1Name" placeholder="Nome do Time">
+            <label for="team1Color">Cor:</label>
+            <select id="team1Color">
+                <option value="red">Vermelho</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="black">Preto</option>
+            </select>
+            <label for="team1Goals">Saldo de Gols:</label>
+            <input type="number" id="team1Goals" placeholder="Saldo de Gols">
+        </div>
+         <div class="team-info">
+            <label for="team1Name">Time 4 Nome:</label>
+            <input type="text" id="team1Name" placeholder="Nome do Time">
+            <label for="team1Color">Cor:</label>
+            <select id="team1Color">
+                <option value="red">Vermelho</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="black">Preto</option>
+            </select>
+            <label for="team1Goals">Saldo de Gols:</label>
+            <input type="number" id="team1Goals" placeholder="Saldo de Gols">
+        </div>
+        <button id="nextStep2">Próxima Etapa</button>
+    </div>
+     <div class="step" id="step3">
+        <h2>TERCEIRO LUGAR</h2>
+        <div class="team-info">
+            <label for="viceTeam1Name">Perdedor JOGO 1 Nome:</label>
+            <input type="text" id="viceTeam1Name" placeholder="Nome do Time">
+            <label for="viceTeam1Color">Cor:</label>
+            <select id="viceTeam1Color">
+                <option value="red">Vermelho</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="black">Preto</option>
+            </select>
+            <label for="viceTeam1Goals">Saldo de Gols:</label>
+            <input type="number" id="viceTeam1Goals" placeholder="Saldo de Gols">
+        </div>
+        <div class="team-info">
+            <label for="viceTeam2Name">Perdedor JOGO 2 Nome:</label>
+            <input type="text" id="viceTeam2Name" placeholder="Nome do Time">
+            <label for="viceTeam2Color">Cor:</label>
+            <select id="viceTeam2Color">
+                <option value="red">Vermelho</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="black">Preto</option>
+            </select>
+            <label for="viceTeam2Goals">Saldo de Gols:</label>
+            <input type="number" id="viceTeam2Goals" placeholder="Saldo de Gols">
+        </div>
+     <button id="nextStep3">Próxima Etapa</button>
+        <p id="viceWinner" class="highlight"></p>
+    <div class="step" id="step4">
+        <h2>CAMPEÃO</h2>
+        <div class="team-info">
+            <label for="championTeam1Name">Vencedor JOGO 1 Nome:</label>
+            <input type="text" id="championTeam1Name" placeholder="Nome do Time">
+            <label for="championTeam1Color">Cor:</label>
+            <select id="championTeam1Color">
+                <option value="red">Vermelho</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="black">Preto</option>
+            </select>
+            <label for="championTeam1Goals">Saldo de Gols:</label>
+            <input type="number" id="championTeam1Goals" placeholder="Saldo de Gols">
+        </div>
+        <div class="team-info">
+            <label for="championTeam2Name">Vencedor JOGO 2 Nome:</label>
+            <input type="text" id="championTeam2Name" placeholder="Nome do Time">
+            <label for="championTeam2Color">Cor:</label>
+            <select id="championTeam2Color">
+                <option value="red">Vermelho</option>
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="black">Preto</option>
+            </select>
+            <label for="championTeam2Goals">Saldo de Gols:</label>
+            <input type="number" id="championTeam2Goals" placeholder="Saldo de Gols">
+        </div>
+        <p id="championWinner" class="highlight"></p>
+        <button id="calculate">Calcular</button>
+    </div>
+</div>
+</body>
+</html>
